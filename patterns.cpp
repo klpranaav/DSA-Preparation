@@ -120,6 +120,11 @@ void pattern6(int n)
 }
 
 void pattern7(int n)
+/*
+        *
+      * * * 
+    * * * * * 
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -140,6 +145,12 @@ void pattern7(int n)
 }
 
 void pattern8(int n)
+/*
+   * * * * * * *
+     * * * * *
+       * * *
+         *
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -160,6 +171,14 @@ void pattern8(int n)
 }
 
 void pattern9(int n)
+/*
+        *
+      * * * 
+    * * * * * 
+    * * * * *
+      * * *
+        *
+*/
 {
     // upper half
     for (int i = 1; i <= n; i++)
@@ -198,6 +217,15 @@ void pattern9(int n)
 }
 
 void pattern10(int n)
+/* 
+        *
+        * * 
+        * * * 
+        * * * *
+        * * *
+        * *
+        *
+*/
 {
     for (int i = 1; i <= n; i++)
     {
