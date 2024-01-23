@@ -247,6 +247,13 @@ void pattern10(int n)
 }
 
 void pattern11(int n)
+/*
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+*/
 {
     for (int i = 0; i < n; i++)
     {
@@ -260,6 +267,11 @@ void pattern11(int n)
 }
 
 void pattern12(int n)
+/*
+1         1
+1 2     2 1
+1 2 3 3 2 1
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -280,6 +292,12 @@ void pattern12(int n)
 }
 
 void pattern13(int n)
+/*
+1
+2 3
+4 5 6
+7 8 9 10
+*/
 {
     int c = 0;
     for (int i = 1; i <= n; i++)
@@ -294,6 +312,12 @@ void pattern13(int n)
 }
 
 void pattern14(int n)
+/*
+A
+A B
+A B C
+A B C D
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -306,6 +330,12 @@ void pattern14(int n)
 }
 
 void pattern15(int n)
+/*
+A B C D
+A B C
+A B
+A
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -318,6 +348,12 @@ void pattern15(int n)
 }
 
 void pattern16(int n)
+/*
+A
+B B
+C C C 
+D D D D 
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -332,6 +368,12 @@ void pattern16(int n)
 }
 
 void pattern17(int n)
+/*
+            A
+          A B A
+        A B C B A
+      A B C D C B A
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -356,6 +398,13 @@ void pattern17(int n)
 }
 
 void pattern18(int n)
+/*
+E
+D E
+C D E
+B C D E
+A B C D E
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -371,6 +420,20 @@ void pattern18(int n)
 }
 
 void pattern19(int n)
+/*
+
+* * * * * * * * *
+* * * *   * * * *
+* * *       * * *
+* *           * *
+*               *
+*               *
+* *           * *
+* * *       * * *
+* * * *   * * * *
+* * * * * * * * *
+
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -408,6 +471,15 @@ void pattern19(int n)
 }
 
 void pattern20(int n)
+/*
+
+*         *
+* *     * *
+* * * * * *
+* *     * *
+*         *
+
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -444,6 +516,12 @@ void pattern20(int n)
 }
 
 void pattern21(int n)
+/*
+    * * * *
+    *     *
+    *     *
+    * * * *
+*/
 {
     for (int i = 1; i <= n; i++)
     {
@@ -463,6 +541,15 @@ void pattern21(int n)
 }
 
 void pattern22(int n)
+/*
+4 4 4 4 4 4 4 
+4 3 3 3 3 3 4
+4 3 2 2 2 3 4
+4 3 2 1 2 3 4
+4 3 2 2 2 3 4
+4 3 3 3 3 3 4
+4 4 4 4 4 4 4 
+*/
 {
     for (int i = 0; i < (2 * n) - 1; i++)
     {
