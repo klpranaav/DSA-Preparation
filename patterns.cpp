@@ -121,10 +121,10 @@ void pattern6(int n)
 
 void pattern7(int n)
 /*
-        *
-      * * * 
-    * * * * * 
-*/
+ *
+ * * *
+ * * * * *
+ */
 {
     for (int i = 1; i <= n; i++)
     {
@@ -146,11 +146,11 @@ void pattern7(int n)
 
 void pattern8(int n)
 /*
-   * * * * * * *
-     * * * * *
-       * * *
-         *
-*/
+ * * * * * * *
+ * * * * *
+ * * *
+ *
+ */
 {
     for (int i = 1; i <= n; i++)
     {
@@ -172,13 +172,13 @@ void pattern8(int n)
 
 void pattern9(int n)
 /*
-        *
-      * * * 
-    * * * * * 
-    * * * * *
-      * * *
-        *
-*/
+ *
+ * * *
+ * * * * *
+ * * * * *
+ * * *
+ *
+ */
 {
     // upper half
     for (int i = 1; i <= n; i++)
@@ -217,15 +217,15 @@ void pattern9(int n)
 }
 
 void pattern10(int n)
-/* 
-        *
-        * * 
-        * * * 
-        * * * *
-        * * *
-        * *
-        *
-*/
+/*
+ *
+ * *
+ * * *
+ * * * *
+ * * *
+ * *
+ *
+ */
 {
     for (int i = 1; i <= n; i++)
     {
@@ -351,8 +351,8 @@ void pattern16(int n)
 /*
 A
 B B
-C C C 
-D D D D 
+C C C
+D D D D
 */
 {
     for (int i = 1; i <= n; i++)
@@ -517,11 +517,11 @@ void pattern20(int n)
 
 void pattern21(int n)
 /*
-    * * * *
-    *     *
-    *     *
-    * * * *
-*/
+ * * * *
+ *     *
+ *     *
+ * * * *
+ */
 {
     for (int i = 1; i <= n; i++)
     {
@@ -542,13 +542,13 @@ void pattern21(int n)
 
 void pattern22(int n)
 /*
-4 4 4 4 4 4 4 
+4 4 4 4 4 4 4
 4 3 3 3 3 3 4
 4 3 2 2 2 3 4
 4 3 2 1 2 3 4
 4 3 2 2 2 3 4
 4 3 3 3 3 3 4
-4 4 4 4 4 4 4 
+4 4 4 4 4 4 4
 */
 {
     for (int i = 0; i < (2 * n) - 1; i++)
