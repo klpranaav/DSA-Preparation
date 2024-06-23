@@ -4,3 +4,5 @@
 
 + **Step 0:** First lets warm up our programming skills by coding these [patterns](https://github.com/klpranaav/DSA-Preparation/blob/main/patterns.cpp). Note the patterns are just to give life to our dead logical thinking 😂 and to brushup our for loops.
 </font>
+
+https://github.com/ashishps1/awesome-leetcode-resources
